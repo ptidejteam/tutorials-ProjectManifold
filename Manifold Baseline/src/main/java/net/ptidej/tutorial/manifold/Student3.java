@@ -1,15 +1,10 @@
 package net.ptidej.tutorial.manifold;
 
-import manifold.ext.delegation.rt.api.link;
-
-public class Student implements IStudent {
-	@link
-	IPerson person;
-
+public class Student3 extends Person implements IStudent {
 	private final String major;
 
-	public Student(final IPerson person, final String major) {
-		this.person = person;
+	public Student3(final String name, final String major) {
+		super(name);
 		this.major = major;
 	}
 
@@ -24,12 +19,12 @@ public class Student implements IStudent {
 	// No need to implement this method, it's forwarded on "IPerson person"
 	// @Override
 	// public String getName() {
-	// return null;
+	// return super.getName();
 	// }
 
 	// No need to implement this method, it's forwarded on "IPerson person"
 	// @Override
 	// public String getTitledName() {
-	// return XXX;
+	// return super.getTitledName();
 	// }
 }

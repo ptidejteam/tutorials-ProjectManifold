@@ -1,5 +1,5 @@
 -------------------------------------------------------------------------------
 Test set: net.ptidej.tutorial.manifold.test.Tests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.130 s -- in net.ptidej.tutorial.manifold.test.Tests
-net.ptidej.tutorial.manifold.test.Tests.test -- Time elapsed: 0.046 s
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.091 s -- in net.ptidej.tutorial.manifold.test.Tests
+net.ptidej.tutorial.manifold.test.Tests.test -- Time elapsed: 0.050 s

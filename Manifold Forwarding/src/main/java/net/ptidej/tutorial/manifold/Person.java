@@ -1,12 +1,9 @@
 package net.ptidej.tutorial.manifold;
 
-import manifold.ext.delegation.rt.api.part;
-
-@part
 public class Person implements IPerson {
 	private final String name;
 
-	public Person(String name) {
+	public Person(final String name) {
 		this.name = name;
 	}
 
