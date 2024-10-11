@@ -3,12 +3,15 @@ package net.ptidej.tutorial.animals.impl;
 import java.awt.Color;
 
 import manifold.ext.delegation.rt.api.part;
+import net.ptidej.tutorial.animals.IBird;
 import net.ptidej.tutorial.animals.behaviour.IAggregationMechanism;
 import net.ptidej.tutorial.animals.behaviour.IFightMechanism;
 import net.ptidej.tutorial.animals.behaviour.INursingMechanism;
 import net.ptidej.tutorial.animals.behaviour.IReproductionMechanism;
 
-public abstract class AbstractBird extends AbstractVertebrate {
+// For Manifold: must extends "IBird"
+@part
+public abstract class AbstractBird extends AbstractVertebrate implements IBird {
 	public AbstractBird(final IAggregationMechanism anAggregationMechanism, final IFightMechanism aFigthMechanism,
 			final INursingMechanism aNursingMechanism, final IReproductionMechanism aReproductionMechanism) {
 		super(anAggregationMechanism, aFigthMechanism, aNursingMechanism, aReproductionMechanism);

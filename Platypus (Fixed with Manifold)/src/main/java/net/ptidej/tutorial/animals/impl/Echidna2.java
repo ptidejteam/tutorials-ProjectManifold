@@ -11,8 +11,9 @@ import net.ptidej.tutorial.animals.behaviour.impl.NursingMechanismLactation;
 import net.ptidej.tutorial.animals.behaviour.impl.ReproductionMechanismOviparity;
 
 public class Echidna2 extends AbstractMammal implements IBird, IMammal {
+	// For Manifold: must be "AbstractBird birdTraits", not "Mallard birdTraits"
 	@link
-	Mallard birdTraits = new Mallard();
+	AbstractBird birdTraits = new Mallard();
 
 	public Echidna2() {
 		super(new AggregationMechanismNone(), new FightMechanismClaws(), new NursingMechanismLactation(),

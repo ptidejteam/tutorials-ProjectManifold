@@ -29,6 +29,7 @@ net\ptidej\tutorial\animals\impl\Shark.class
 net\ptidej\tutorial\animals\behaviour\impl\ReproductionMechanismViviparity.class
 net\ptidej\tutorial\animals\impl\AbstractVertebrate.class
 net\ptidej\tutorial\animals\behaviour\impl\ReproductionMechanismOvoviviparity.class
+net\ptidej\tutorial\animals\impl\Echidna0.class
 net\ptidej\tutorial\animals\impl\AbstractReptile.class
 net\ptidej\tutorial\animals\behaviour\IFightMechanism.class
 net\ptidej\tutorial\animals\IReptile.class

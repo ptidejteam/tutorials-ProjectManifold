@@ -1,17 +1,6 @@
 -------------------------------------------------------------------------------
 Test set: net.ptidej.tutorial.animals.test.Tests
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.151 s <<< FAILURE! -- in net.ptidej.tutorial.animals.test.Tests
-net.ptidej.tutorial.animals.test.Tests.testUnexpectedMissingCallToOverridingMethod -- Time elapsed: 0.055 s <<< FAILURE!
-org.opentest4j.AssertionFailedError: The method net.ptidej.tutorial.animals.impl.Echidna2.getEggSize() IS called by net.ptidej.tutorial.animals.impl.AbstractBird.layEgg() ==> expected: <20> but was: <50>
-	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
-	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
-	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
-	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)
-	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:563)
-	at net.ptidej.tutorial.animals.test.Tests.testUnexpectedMissingCallToOverridingMethod(Tests.java:34)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.153 s -- in net.ptidej.tutorial.animals.test.Tests
+net.ptidej.tutorial.animals.test.Tests.testUnexpectedMissingCallToOverridingMethod -- Time elapsed: 0.057 s
 net.ptidej.tutorial.animals.test.Tests.testUnexpectedCallToOverridingMethod -- Time elapsed: 0.007 s

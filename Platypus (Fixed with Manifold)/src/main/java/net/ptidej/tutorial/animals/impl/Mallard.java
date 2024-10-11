@@ -9,6 +9,7 @@ import net.ptidej.tutorial.animals.behaviour.impl.FightMechanismNone;
 import net.ptidej.tutorial.animals.behaviour.impl.NursingMechanismRegurgitation;
 import net.ptidej.tutorial.animals.behaviour.impl.ReproductionMechanismOviparity;
 
+@part
 public class Mallard extends AbstractBird implements IBird {
 	public Mallard() {
 		super(new AggregationMechanismNone(), new FightMechanismNone(), new NursingMechanismRegurgitation(),

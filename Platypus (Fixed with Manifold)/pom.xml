@@ -6,9 +6,9 @@
 
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>Platypus</groupId>
-	<artifactId>Platypus</artifactId>
-	<version>1.0.0-BrokenOnPurpose</version>
+	<groupId>net.ptidej.tutorial.forwardingdelegation</groupId>
+	<artifactId>platypus</artifactId>
+	<version>1.0.0-FixedWithManifold</version>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<manifold.version>2024.1.34</manifold.version>

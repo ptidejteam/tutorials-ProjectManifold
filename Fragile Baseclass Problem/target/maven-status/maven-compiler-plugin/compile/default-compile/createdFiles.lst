@@ -1,0 +1,11 @@
+net\ptidej\tutorial\forwarding\broken\Main.class
+net\ptidej\tutorial\overriding\SubClass.class
+net\ptidej\tutorial\forwarding\working\manifold\Main.class
+net\ptidej\tutorial\forwarding\CountingSet.class
+net\ptidej\tutorial\overriding\SuperClass.class
+net\ptidej\tutorial\forwarding\working\manifold\CountingHashSet.class
+net\ptidej\tutorial\forwarding\working\ForwardingSet.class
+net\ptidej\tutorial\overriding\SafeSuperClass.class
+net\ptidej\tutorial\forwarding\broken\CountingHashSet.class
+net\ptidej\tutorial\forwarding\working\CountingHashSet.class
+net\ptidej\tutorial\forwarding\working\Main.class

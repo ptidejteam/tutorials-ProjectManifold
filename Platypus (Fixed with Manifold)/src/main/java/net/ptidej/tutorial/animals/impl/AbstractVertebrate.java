@@ -11,6 +11,7 @@ import net.ptidej.tutorial.animals.behaviour.IFightMechanism;
 import net.ptidej.tutorial.animals.behaviour.INursingMechanism;
 import net.ptidej.tutorial.animals.behaviour.IReproductionMechanism;
 
+@part
 public abstract class AbstractVertebrate implements IVertebrate {
 	private final List<IAggregationMechanism> aggregationMechanisms = new ArrayList<>();
 	private final List<IFightMechanism> figthMechanisms = new ArrayList<>();

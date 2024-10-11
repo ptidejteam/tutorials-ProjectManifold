@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Assertions;
 import net.ptidej.tutorial.manifold.Person;
 import net.ptidej.tutorial.manifold.Student1;
 import net.ptidej.tutorial.manifold.Student2;
-import net.ptidej.tutorial.manifold.Student3;
+import net.ptidej.tutorial.manifold.Student0;
 
 class Tests {
 
@@ -20,7 +20,7 @@ class Tests {
 		final Student2 student2 = new Student2(person, "Transfiguration");
 		Assertions.assertEquals("Student Harry Potter", student2.getTitledName());
 
-		final Student3 student3 = new Student3("Harry Potter", "Transfiguration");
+		final Student0 student3 = new Student0("Harry Potter", "Transfiguration");
 		Assertions.assertEquals("Student Harry Potter", student3.getTitledName());
 	}
 

@@ -1,0 +1,6 @@
+-------------------------------------------------------------------------------
+Test set: net.ptidej.tutorial.overriding.Tests
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 s -- in net.ptidej.tutorial.overriding.Tests
+net.ptidej.tutorial.overriding.Tests.test1 -- Time elapsed: 0.004 s
+net.ptidej.tutorial.overriding.Tests.test2 -- Time elapsed: 0.006 s
